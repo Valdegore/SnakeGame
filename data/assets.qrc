@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file>assets/images/snake_menu.png</file>
+        <file>assets/music/15. Resting Grounds.mp3</file>
+        <file>assets/music/17. The White Lady.mp3</file>
+        <file>assets/images/apple.png</file>
+        <file>assets/images/cialo.png</file>
+        <file>assets/images/glowa2.png</file>
+        <file>assets/images/istockphoto.png</file>
+    </qresource>
+</RCC>
