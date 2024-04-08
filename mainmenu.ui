@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>mainMenu</class>
+ <widget class="QWidget" name="mainMenu">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1720</width>
+    <height>1080</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="button" name="start">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>170</y>
+     <width>200</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Start</string>
+   </property>
+  </widget>
+  <widget class="button" name="tutorial">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>280</y>
+     <width>200</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Tutorial</string>
+   </property>
+  </widget>
+  <widget class="button" name="exit">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>390</y>
+     <width>200</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1820</width>
+     <height>780</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="data/assets.qrc">:/assets/images/snake_menu.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <zorder>label</zorder>
+  <zorder>start</zorder>
+  <zorder>tutorial</zorder>
+  <zorder>exit</zorder>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>button</class>
+   <extends>QPushButton</extends>
+   <header>data/scripts/widgets/button.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="data/assets.qrc"/>
+ </resources>
+ <connections/>
+</ui>

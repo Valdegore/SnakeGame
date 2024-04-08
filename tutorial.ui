@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Tutorial</class>
+ <widget class="QWidget" name="Tutorial">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1080</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="button" name="exit">
+   <property name="geometry">
+    <rect>
+     <x>1270</x>
+     <y>650</y>
+     <width>200</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Start</string>
+   </property>
+  </widget>
+  <widget class="button" name="Menu">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>650</y>
+     <width>200</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Menu</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>100</y>
+     <width>1121</width>
+     <height>591</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Goal:
+The object of the Snake game is to control the snake with the mouse and guide it to eat food while avoiding 
+collisions with walls or your own body. With each food eaten, the snake grows longer, making the game more difficult.
+
+Gameplay:
+1. Start the Snake game.
+2. The game will start with a snake and a piece of food on the screen.
+3. Control the movement of the snake with the mouse.
+4. Guide the snake to move towards the food.
+5. When the snake reaches the food, it will consume it and its length will increase.
+6. A snake's speed can increase as it gets longer, making it more difficult to control.
+7. Do not allow the snake to collide with walls or your own body.
+8. The game ends if the snake hits a wall or its own body.
+9. The goal is to eat as much food as possible without crashing.</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>680</x>
+     <y>20</y>
+     <width>391</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe Fluent Icons</family>
+     <pointsize>48</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Tutorial</string>
+   </property>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>button</class>
+   <extends>QPushButton</extends>
+   <header>data/scripts/widgets/button.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
